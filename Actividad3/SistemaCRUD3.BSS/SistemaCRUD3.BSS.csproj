@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaCRUD3.DAL\SistemaCRUD3.DAL.csproj" />
+    <ProjectReference Include="..\SistemaCRUD3.Modelos\SistemaCRUD3.Modelos.csproj" />
+  </ItemGroup>
+
+</Project>
